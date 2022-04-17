@@ -1,0 +1,36 @@
+{
+  "name": "chatup-server",
+  "version": "1.0.0",
+  "description": "graphql app",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --exec npx ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bettaibi/chatup-server.git"
+  },
+  "author": "Nidhal Bettaibi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bettaibi/chatup-server/issues"
+  },
+  "homepage": "https://github.com/bettaibi/chatup-server#readme",
+  "dependencies": {
+    "apollo-server-core": "^3.6.7",
+    "apollo-server-express": "^3.6.7",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0",
+    "mongoose": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^17.0.24",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
